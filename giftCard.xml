@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<parameter name="receiverName" value="Akanksha Lendave"></parameter>
+	<parameter name="receiverEmail" value="akankshalendave21@gmail.com"></parameter>
+	<parameter name="senderName" value="Aditi Chavan"></parameter>
+	<parameter name="senderEmail" value="aditi21@gmail.com"></parameter>
+	<parameter name="quantity" value="5"></parameter>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="GiftCardPage.GiftCardForm"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+

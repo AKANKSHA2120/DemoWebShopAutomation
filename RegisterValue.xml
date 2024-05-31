@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+	<parameter name="firstName" value="Sai"></parameter>
+	<parameter name="lastName" value="Joshi"></parameter>
+	<parameter name="email" value="sai22@gmail.com"></parameter>
+	<parameter name="password" value="21042000"></parameter>
+	<parameter name="conPassword" value="21042000"></parameter>
+    <classes>
+      <class name="RegisterPage.RegisterForm"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
